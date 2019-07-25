@@ -6,10 +6,10 @@ class  MyFirstComponent extends React.Component {
     render() { 
         return ( 
         <div> 
-                     
-            <MySecondComponent name={this.props.name}
-            location={this.props.location}
-               year = {this.props.children} 
+            Hello,             {this.props.children}
+            <MySecondComponent sname={this.props.name}
+            slocation={this.props.location}
+               year = {this.props.year} 
             >
                 
             </MySecondComponent>

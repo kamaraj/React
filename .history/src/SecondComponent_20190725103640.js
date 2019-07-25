@@ -4,7 +4,7 @@ class MySecondComponent extends React.Component {
     constructor(props){
     super(props)
         this.state={
-             year: parseInt(this.props.year)
+             year: parseint(this.props.year   )
         }
         this.incrementYear = this.incrementYear.bind(this)
         this.decrementYear = this.decrementYear.bind(this)
@@ -19,7 +19,7 @@ this.setState({
     
     decrementYear=function(){
         this.setState({
-            year: this.state.year-1
+            year: this.state.year+1
         })
             }
 
@@ -31,7 +31,6 @@ this.setState({
                 Location:   location
                 <br></br>
                 Year:   {this.state.year}
-                <br></br>
                 <button onClick={this.incrementYear}>+</button> 
                 <button onClick={this.decrementYear}>-</button> 
             </div>

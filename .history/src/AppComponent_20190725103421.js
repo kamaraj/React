@@ -9,7 +9,7 @@ class  MyFirstComponent extends React.Component {
                      
             <MySecondComponent name={this.props.name}
             location={this.props.location}
-               year = {this.props.children} 
+               year = {this.props.year} 
             >
                 
             </MySecondComponent>

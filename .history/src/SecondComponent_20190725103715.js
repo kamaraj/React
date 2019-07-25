@@ -31,7 +31,6 @@ this.setState({
                 Location:   location
                 <br></br>
                 Year:   {this.state.year}
-                <br></br>
                 <button onClick={this.incrementYear}>+</button> 
                 <button onClick={this.decrementYear}>-</button> 
             </div>

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MyFirstComponent from './AppComponent';
-import MySecondComponent from './SecondComponent';
+import MySecondComponent from './AppComponent';
 import Counter from './counter/counter';
-import LifeCycle from './lifecycle';
 
 var position = document.getElementById('rootcontainer')
 
@@ -13,10 +12,6 @@ ReactDOM.render(<div>
     <MyFirstComponent name="Senthil" location="Pune">456</MyFirstComponent>
 
     <MySecondComponent name="Senthil" location="Pune">456</MySecondComponent>
-
+</div>
 <Counter></Counter>
-<br></br>
-{alert("1")}
-<LifeCycle></LifeCycle>
-<br></br></div>
 ,position)

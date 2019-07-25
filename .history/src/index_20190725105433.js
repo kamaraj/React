@@ -16,7 +16,6 @@ ReactDOM.render(<div>
 
 <Counter></Counter>
 <br></br>
-{alert("1")}
 <LifeCycle></LifeCycle>
 <br></br></div>
 ,position)
